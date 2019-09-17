@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": "airbnb",
+  "extends": ["airbnb", "plugin:react/recommended"],
   "plugins": ["react"],
   "parserOptions": {
     "ecmaVersion": 9
@@ -21,6 +21,7 @@
     "react/no-array-index-key": "off",
     "no-nested-ternary": 0,
     "jsx-a11y/label-has-for": "off",
-    "comma-dangle": ["error", "never"]
-  }
+    "comma-dangle": ["error", "never"],
+    "react/state-in-constructor":  ["error", "never"]
+    }
 }
